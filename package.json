@@ -1,0 +1,14 @@
+{
+  "name": "sample-backend",
+  "version": "0.1.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "stripe": "^8.202.0"
+  },
+  "homepage": "http://localhost:3000/checkout",
+  "proxy": "http://localhost:4242",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
